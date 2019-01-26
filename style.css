@@ -1,0 +1,98 @@
+ /* The sidebar menu */
+.sidenav {
+  height: 100%; 
+  width: 220px; 
+  padding-top: 20px;
+  position: fixed; 
+  background-color: #384150; 
+  overflow-x: hidden; /* Disable horizontal scroll */
+}
+
+.caixa:hover{
+    background: #212A3A;
+
+}
+/* tenho que fazer a tarja sumir com o hover usar o check box? */
+.tarja{
+    height: 50px;
+    width: 5px;
+    float: left;
+    background-color: #B33C7D; 
+}
+
+
+.notifica{
+    float: right;
+    line-height: 50px;
+    border-radius: 50%;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    margin: 15px;
+    width: 20px;
+    height: 20px;
+    font-size: 9pt;
+    background-color: #3596C9;
+    color: #FFFFFF;
+   }
+
+/* The navigation menu links */
+.sidenav div a {
+  padding-left: 20px;
+  font-family: Tahoma;
+  font-weight: bold;
+  font-size: 9pt;
+  color: #FFFFFF;
+  line-height: 50px; 
+}
+/* When you mouse over the navigation links, change their color */
+/* .sidenav a:hover {
+    color: #FFFFFF;
+} */
+
+
+/* Style page content */
+.main {
+  margin-left: 30px; /* Same as the width of the sidebar */ 
+}
+.main h1 {
+  margin: 0px;
+  margin-top: 21px;
+  margin-bottom: 21px;
+  font-size: 16pt;
+  color: #3D4F61;
+  display: inline;
+}
+.pac{
+    height: 100%;
+    width: 1366px;
+    padding-left: 250px;
+    background-color: #DDDFE0;
+    overflow-x: hidden; /* Disable horizontal scroll */  
+}
+
+
+
+
+
+
+.bot{
+    background-color: #3596C9;
+    font-size: 10pt;
+    float: right;
+    
+}
+.linha1{
+    margin-top: 25px;
+    margin-bottom: 0px;
+    margin-left: 120px
+}
+.linha2{
+    margin-top: 0px;
+    margin-left: 120px
+}
+
+
+.tab2{
+    background: #3596C9
+}
