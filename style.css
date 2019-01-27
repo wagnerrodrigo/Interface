@@ -10,7 +10,13 @@
 
 .caixa:hover{
     background: #212A3A;
+}
+.caixa-top{
+    border-top: 1px solid #282F3A;
+}
 
+.sidenav div {
+    border-bottom: 1px solid #282F3A;
 }
 /* tenho que fazer a tarja sumir com o hover usar o check box? */
 .tarja{
@@ -36,6 +42,21 @@
     color: #FFFFFF;
    }
 
+.notifica2{
+    float: right;
+    line-height: 50px;
+    border-radius: 50%;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    margin: 15px;
+    width: 20px;
+    height: 20px;
+    font-size: 9pt;
+    background-color: #E35B5B;
+    color: #FFFFFF;
+   }
+
 /* The navigation menu links */
 .sidenav div a {
   padding-left: 20px;
@@ -44,6 +65,8 @@
   font-size: 9pt;
   color: #FFFFFF;
   line-height: 50px; 
+  text-decoration: none;
+  cursor: pointer;
 }
 /* When you mouse over the navigation links, change their color */
 /* .sidenav a:hover {
@@ -59,6 +82,14 @@
   color: #3D4F61;
   display: inline;
 }
+.main{
+    width: 966px;
+    border-top: 1px solid red;
+    border-bottom: 1px solid red;
+    margin-top: 25px;
+    margin-bottom: 15px;
+    padding: 42px 0px;
+}
 .pac{
     height: 642px;
     width: 100%;
@@ -69,27 +100,56 @@
 
 
 .bot{
-    background-color: #3596C9;
     font-size: 10pt;
-    
+    background-color: #3596C9;
+    color: #ffffff;
+    float: right;
+    align-items: center
 }
-.linha1{
-    margin-top: 25px;
-    /* margin-bottom: 0px; */
-    margin-right: 136px;
-    margin-left: 0px;
-}
-.linha2{
-    /* margin-top: 0px; */
-    margin-left: 0px;
-    margin-right: 136px;
-    margin-bottom: 0px;
-    
-}
+
 
 
 .tab2{
     background: white;
     height: 100%;
     width: 966px;
+}
+.alteracao{
+    background-color: #E07182;
+    font-size: 8pt;
+    font-weight: bold;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    padding-right: 10px;
+    padding-left: 10px;
+    display: table-row;
+
+}
+.novo{
+     background-color: #2DC7C7;
+    font-size: 8pt;
+    font-weight: bold;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    padding-right: 21px;
+    padding-left: 20px;
+    display: table-row;
+
+}
+
+/* 
+.ta tr {
+    border-top: 2px solid blueviolet;
+    border-bottom: 2px solid blueviolet;
+} */
+.table div{
+    padding: 0px;
+    
+}
+
+.ta tbody th tr td  {
+   display: table-row;
+    vertical-align: inherit;
+    padding: 51px;
+    
 }
